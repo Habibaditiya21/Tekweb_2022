@@ -1,0 +1,31 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #d4f1f4;
+}
+
+#Artikel {
+  background-color: #d4f1f4;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.jumbotron img {
+  width: 300px;
+}
+
+.cover {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.member-meta {
+  padding: 15px;
+}
