@@ -1,9 +1,22 @@
 [
   {
     "title": "Berjalan Perlahan",
-    "published_at": "Rabu, 4 Mei 2022",
-    "author": "Oleh : Habib Aditiya",
-    "desc": "Pejalan",
+    "desc": "Pejalan perlahan",
     "tumbhnail": "../img/projects/Artikel01.jpg"
+  },
+  {
+    "title": "Menjadi Manusia",
+    "desc": "Oleh : Habib Aditiya",
+    "tumbhnail": "../img/Artikel02.jpg"
+  },
+  {
+    "title": "Tetaplah Bersama",
+    "desc": "Oleh : Habib Aditiya",
+    "tumbhnail": "../img/Artikel03.jpg"
+  },
+  {
+    "title": "My Trip My Sleep",
+    "desc": "Oleh : Habib Aditiya",
+    "tumbhnail": "../img/Artikel04.jpg"
   }
 ]
