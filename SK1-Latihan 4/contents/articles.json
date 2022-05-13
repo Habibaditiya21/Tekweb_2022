@@ -1,0 +1,34 @@
+[
+  {
+    "ID": "1",
+    "title": "Berjalan Perlahan",
+    "author": "Oleh : Habib Aditiya",
+    "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel01.jpg",
+    "content": "Untukmu yang pernah datang dan mengubah segala rencana.",
+    "markdown": "article_1.md"
+  },
+  {
+    "ID": "2",
+    "title": "Menjadi Manusia",
+    "author": "Oleh : Habib Aditiya",
+    "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg",
+    "content": "Jangan terlalu dalam, nanti susah keluar.",
+    "markdown": "article_2.md"
+  },
+  {
+    "ID": "3",
+    "title": "Garis Waktu",
+    "author": "Oleh : Habib Aditiya",
+    "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel03.jpg",
+    "content": "Pada sebuah garis waktu yang merangkak maju.",
+    "markdown": "article_3.md"
+  },
+  {
+    "ID": "4",
+    "title": "My Trip My Sleep",
+    "author": "Oleh : Habib Aditiya",
+    "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel04.jpg",
+    "content": "Kala itu tidak menyangka bahwa tidak semua cerita berakhir indah.",
+    "markdown": "article_4.md"
+  }
+]
