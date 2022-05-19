@@ -18,22 +18,26 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top text-end" style="font-size: large">
       <div class="container">
         <a class="navbar-brand" href="#home">MY ARTICLES</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="./index.html">Home</a>
-            </li>
-            
         </div>
       </div>
     </nav>
+
+    <!-- Markdown -->
     <div id="app">
       <div class="container mt-5 pt-4">
         <div v-html="article"></div>
       </div>
+    </div>
+    <div>
+
+    <!-- Button -->
+    <div class="container text-lg-end">
+      <button class="btn btn-primary mt-5 text-md-end">
+        <a :href="'../index.html?article='+data.markdown" class="button" role="button" style="color: white">Back</a>
+      </button>
+    </div>
+
+    <!-- Footer -->
     </div>
     <div class="footer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

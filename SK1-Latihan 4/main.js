@@ -66,7 +66,7 @@ Vue.createApp({
   methods: {
     getListMarkdown() {
       axios
-        .get(("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/SK1-Latihan%204/contents/articles.json"))
+        .get("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/SK1-Latihan%204/contents/articles.json")
         .then((res) => {
           console.log(res.data); //melihat respon data pada console browser
           this.list_markdown = res.data; //memperbarui variabel header pada bagian data()
