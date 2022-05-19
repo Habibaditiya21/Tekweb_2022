@@ -17,3 +17,4 @@ jangan terlalu jatuh, nanti susah berdiri.
 jangan terlalu bergantung, nanti susah mandiri.
 <br>
 karena yang terpenting adalah menjadi manusia, saling menguatkan bukan melemahkan.
+<br>

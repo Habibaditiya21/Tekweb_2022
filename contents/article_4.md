@@ -8,13 +8,19 @@ _Oleh Habib Aditiya, Mahasiswa Universitas Ahmad Dahlan Yogyakarta_
 
 ---
 
-Dalam pertemuan ada cerita, dalam perpisahan ada kenangan, 
+Dalam pertemuan ada cerita,
+<br> 
+dalam perpisahan ada kenangan, 
 <br>
-dalam jarak ada rindu, dalam diam ada doaku untukmu.
+dalam jarak ada rindu, 
+<br>
+dalam diam ada doaku untukmu.
 <br>
 kala itu di tepian cakrawala,
-<br> kita memandang lampu kota dengan sepasang tangan yang pernah tak hendak melepas.
+<br> 
+kita memandang lampu kota dengan sepasang tangan yang pernah tak hendak melepas.
 <br>
 Kala itu,
 <br>
 tidak menyangka bahwa tidak semua cerita berakhir indah.
+<br>

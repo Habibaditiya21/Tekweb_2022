@@ -1,7 +1,7 @@
 Vue.createApp({
   data() {
     return {
-      article: null
+      article: null,
     };
   },
   methods: {
@@ -12,7 +12,7 @@ Vue.createApp({
       var converter = new showdown.Converter();
       console.log(article);
       axios
-        .get(src="./contents/" + article)
+        .get("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/contents/articles.json" + article)
         .then((res) => {
           var html = converter.makeHtml(res.data);
           this.article = html;
@@ -23,7 +23,7 @@ Vue.createApp({
         });
     },
   },
-  beforeMount() { 
+  beforeMount() {
     this.getMarkdownData();
   },
 }).mount("#app");

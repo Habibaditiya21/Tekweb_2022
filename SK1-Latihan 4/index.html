@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <title>markdown | Habib Aditiya</title>
   </head>
   <body id="app">
@@ -116,38 +116,27 @@
     <section id="tabel">
       <div class="container">
         <h2 class="text-center judul">Tabel Skill</h2>
-      
-      <br />
-      <div class="row">
-        <div class="col-5 border m-auto">
-          <table class="table w-100">
-            <thead>
-              <tr>
-                <td v-for="data in tabel.nama" class="fw-bold">
-                  {{data}}
-                </td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="(data, i) in tabel.list">
-                <td style="width: 12px">
-                  {{i+1}}
-                </td>
-                <td>
-                  {{data.Keahlian}}
-                </td>
-                <td>
-                  {{data.Skill}}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <br />
+        <div class="row">
+          <div class="col-md-4 border m-auto">
+            <table class="table w-100">
+              <thead>
+                <tr>
+                  <td v-for="data in tabel.nama" class="fw-bold">{{data}}</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(data, i) in tabel.list">
+                  <td style="width: 12%">{{i+1}}</td>
+                  <td>{{data.Keahlian}}</td>
+                  <td>{{data.Skill}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-      
-      </div>
     </section>
-
 
     <!-- Artikel  -->
     <section id="artikel">

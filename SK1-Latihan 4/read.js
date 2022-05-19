@@ -12,7 +12,7 @@ Vue.createApp({
       var converter = new showdown.Converter();
       console.log(article);
       axios
-        .get("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/SK1-Latihan%204/contents/" + article)
+        .get(("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/SK1-Latihan%204/contents/articles.json" + article))
         .then((res) => {
           var html = converter.makeHtml(res.data);
           this.article = html;

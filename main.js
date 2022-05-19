@@ -33,42 +33,40 @@ Vue.createApp({
       list_markdown: [],
       tabel: {
         judul: "Tabel Skill",
-        nama: ["No.", "Keahlian","Skill"],
+        nama: ["No.", "Keahlian", "Skill"],
         list: [
           {
-            "Keahlian":"Python",
-            "Skill":"Intermediate",
+            Keahlian: "Python",
+            Skill: "Intermediate",
           },
           {
-            "Keahlian":"CSS",
-            "Skill":"Basic",
+            Keahlian: "CSS",
+            Skill: "Basic",
           },
           {
-            "Keahlian":"HTML",
-            "Skill":"Advance",
+            Keahlian: "HTML",
+            Skill: "Advance",
           },
           {
-            "Keahlian":"Javascript",
-            "Skill":"Basic",
+            Keahlian: "Javascript",
+            Skill: "Basic",
           },
           {
-            "Keahlian":"Java",
-            "Skill":"Basic",
+            Keahlian: "Java",
+            Skill: "Basic",
           },
           {
-            "Keahlian":"Microsoft",
-            "Skill":"Advance",
-          }
-        ]
-      }
+            Keahlian: "Microsoft",
+            Skill: "Advance",
+          },
+        ],
+      },
     };
   },
   methods: {
     getListMarkdown() {
       axios
-        .get(
-          src = "./contents/articles.json"
-          )
+        .get(("https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/contents/articles.json"))
         .then((res) => {
           console.log(res.data); //melihat respon data pada console browser
           this.list_markdown = res.data; //memperbarui variabel header pada bagian data()
