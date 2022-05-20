@@ -29,6 +29,11 @@ Vue.createApp({
           desc: "Oleh : Habib Aditiya",
           image: "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel04.jpg",
         },
+        {
+          teks01: "HALLO DULURS",
+          teks02: "Dengan Habib Aditiya Disini. Saya adalah mahasiswa Sistem Informasi 2020. Saya belajar di Universitas Ahmad Dahlan Yogyakarta.",
+          teks03: "Pemrograman adalah hal yang menarik bagi saya terutama website development, Oleh karna itu saya belajar tentang web development.",
+        }
       ],
       list_markdown: [],
       tabel: {

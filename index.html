@@ -85,21 +85,17 @@
     <section id="about" class="about scrollspy">
       <div class="container">
         <div class="row text-center">
-          <div class="col mb-4 mt-4">
+          <div class="col-mt-4">
             <h2 class="judul">About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 mb-4 me-3">
-            <p></p>
-            <p>HALLO DULURS</p>
-            <p>Dengan Habib Aditiya Disini. Saya adalah mahasiswa Sistem Informasi 2020. Saya belajar di Universitas Ahmad Dahlan Yogyakarta.</p>
+        <div class="row justify-content-center fs-5 text-center" v-for = "data in portofolio">
+          <div class="col-md-4 me-3">
+            <p> {{data.teks01}}</p>
+            <p> {{data.teks02}} </p>
           </div>
-          <div class="col-md-4 mb-4 ms-3">
-            <p></p>
-            <h2>"</h2>
-            <p>Pemrograman adalah hal yang menarik bagi saya terutama website development, Oleh karna itu saya belajar tentang web development.</p>
-            <h2>"</h2>
+          <div class="col-md-4 me-3">
+            <p>{{data.teks03}}</p>
           </div>
         </div>
       </div>

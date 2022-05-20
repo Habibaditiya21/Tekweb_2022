@@ -7,6 +7,22 @@
   background-color: #d4f1f4;
 }
 
+.btn{
+  background-color: #0275d8;
+  padding: 2px 5px ;
+  transition: .8s;
+}
+
+.btn a{
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #035298 !important;
+  transform: scale(1.2);
+}
+
 section {
   padding-top: 5rem;
 }
@@ -67,4 +83,8 @@ section {
 .border{
   border: solid 2px #0275d8 !important;
   border-radius: 10px;
+}
+
+.border-0{
+  border: solid 2px #0275d8 !important;
 }

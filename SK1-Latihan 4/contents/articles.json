@@ -1,6 +1,5 @@
 [
   {
-    "ID": "1",
     "title": "Berjalan Perlahan",
     "author": "Oleh : Habib Aditiya",
     "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel01.jpg",
@@ -8,7 +7,6 @@
     "markdown": "article_1.md"
   },
   {
-    "ID": "2",
     "title": "Menjadi Manusia",
     "author": "Oleh : Habib Aditiya",
     "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg",
@@ -16,7 +14,6 @@
     "markdown": "article_2.md"
   },
   {
-    "ID": "3",
     "title": "Sebuah Garis Waktu",
     "author": "Oleh : Habib Aditiya",
     "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel03.jpg",
@@ -24,7 +21,6 @@
     "markdown": "article_3.md"
   },
   {
-    "ID": "4",
     "title": "My Trip My Sleep",
     "author": "Oleh : Habib Aditiya",
     "tumbhnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel04.jpg",
