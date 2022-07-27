@@ -151,7 +151,7 @@ data:{
 }
 
 
-POST: /portofolio
+POST: /articles
 
 data:{
         "title": "Menjadi Manusia UPDATE",
