@@ -4,51 +4,69 @@
 
 GET: /users
 
-data: [
+response: [
 {
-        "id": "1",
-        "name": "Habib Aditiya",
-        "motto": "Jangan Takut Gagal, Takutlah Jika Tidak Pernah Mencoba",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
+        "id": "",
+        "nama": "",
+        "motto": "",
+        "gambar": ""
 },
-{
-        "id": "3",
-        "name": "Syawal Saputra",
-        "motto": "Jangan Lupa Bahagia",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
-},
-{
-        "id": "5",
-        "name": "Syawal Saputra",
-        "motto": "Jangan Lupa Bahagia",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
-}
+...
 ]
 
-GET: /users/[1]
+GET: /users/[id]
 
-data:{
-        "id": "1",
-        "name": "Habib Aditiya",
-        "motto": "Jangan Takut Gagal, Takutlah Jika Tidak Pernah Mencoba",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
+response:{
+        "id": "",
+        "nama": "",
+        "motto": "",
+        "gambar": ""
 }
 
 POST: /users
 
-data:{
-        "name": "David Bukan Gadgetin",
-        "motto": "Jangan Takut Gagal, Takutlah Jika Tidak Pernah Mencoba",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
 }
 
-PUT: /users/[4]
-
-data:{
-        "name": "David UPDATE",
-        "motto": "Takutlah Jika Tidak Pernah Mencoba",
-        "gambar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F36"
+body:{
+         "nama": "",
+        "motto": "",
+        "gambar": ""
 }
+
+response:
+true    // if success
+false   // if failure
+
+
+PUT: /users
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:{
+         "nama": "",
+        "motto": "",
+        "gambar": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+DELETE: /articles/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
 
 
 
@@ -56,131 +74,228 @@ data:{
 
 GET: /portofolio
 
-data:[
+response: [
 {
-        "id": "3",
-        "deskripsi01": "HALLO DULURS\r\n\r\nDengan Habib Aditiya Disini. Saya adalah mahasiswa Sistem Informasi 2020. ",
-        "deskripsi02": "Pemrograman adalah hal yang menarik bagi saya terutama website development, Oleh karna itu"
+        "id": "",
+        "teks01": "",
+        "teks02": "",
+        "teks03": ""
 },
-{
-        "id": "6",
-        "deskripsi01": "Garis Waktu UPDATE",
-        "deskripsi02": "Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu oran"
-},
-{
-        "id": "8",
-        "deskripsi01": "Menjadi Manusia",
-        "deskripsi02": "Jangan terlalu dalam, nanti susah keluar.\r\njangan terlalu terikat, nanti susah lepas.\r\njan"
-},
-{
-        "id": "13",
-        "deskripsi01": "Garis Waktu",
-        "deskripsi02": "Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu oran"
-}
+...
 ]
 
+GET: /portofolio/[id]
 
-GET: /portofolio/[3]
-
-data:{
-        "id": "3",
-        "deskripsi01": "HALLO DULURS\r\n\r\nDengan Habib Aditiya Disini. Saya adalah mahasiswa Sistem Informasi 2020. ",
-        "deskripsi02": "Pemrograman adalah hal yang menarik bagi saya terutama website development, Oleh karna itu"
+response:{
+         "id": "",
+        "teks01": "",
+        "teks02": "",
+        "teks03": ""
 }
-
 
 POST: /portofolio
 
-data:{
-        "deskripsi01": "Garis Waktu",
-        "deskripsi02": "Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu orang yang mengubah hidupmu untuk selamanya."
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
 }
 
-
-PUT: /portofolio/[6]
-
-data:{
-        "deskripsi01": "Garis Waktu UPDATE",
-        "deskripsi02": "Pada sebuah garis waktu yang merangkak maju, akan ada saatnya kau bertemu dengan satu orang yang mengubah hidupmu untuk selamanya."
+body:{
+        "teks01": "",
+        "teks02": "",
+        "teks03": ""
 }
 
+response:
+true    // if success
+false   // if failure
 
 
-<!--  Tabel Articles -->
+PUT: /portofolio
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:{
+        "teks01": "",
+        "teks02": "",
+        "teks03": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+DELETE: /portofolio/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
+
+
+
+<!--  Artikel -->
 
 GET: /articles
 
-data:[
+response: [
 {
-        "Id": "5",
-        "title": "Berjalan Perlahan Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel01.jpg"
+        "id": "",
+        "title": "",
+        "author": "",
+        "author_id": "",
+        "thumbnail": "",
+        "markdown": ""
 },
-{
-        "Id": "6",
-        "title": "Menjadi Manusia Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg"
-},
-{
-        "Id": "7",
-        "title": "Sebuah Garis Waktu Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel03.jpg"
-},
-{
-        "Id": "8",
-        "title": "My Trip My Sleep Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel04.jpg"
-},
-{
-        "Id": "11",
-        "title": "Menjadi Manusia UPDATE Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel04.jpg"
-},
-{
-        "Id": "24",
-        "title": "Menjadi Manusia Merdeka Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": ""
-},
-{
-        "Id": "25",
-        "title": "Menjadi Manusia Merdeka Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": ""
-}
+...
 ]
 
+GET: /articles/[id]
 
-GET: /articles/[6]
-
-data:{
-        "Id": "6",
-        "title": "Menjadi Manusia Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg"
+response:{
+        "id": "",
+        "title": "",
+        "author": "",
+        "author_id": "",
+        "thumbnail": "",
+        "markdown": """
 }
-
 
 POST: /articles
 
-data:{
-        "title": "Menjadi Manusia Merdeka Oleh : Habib Aditiya",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg"
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:{
+        "title": "",
+        "author": "",
+        "author_id": "",
+        "thumbnail": "",
+        "markdown": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+PUT: /articles
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:{
+        "title": "",
+        "author": "",
+        "author_id": "",
+        "thumbnail": "",
+        "markdown": ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+
+DELETE: /articles/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
+
+
+
+
+<!--  Skill -->
+
+GET: /skills
+
+response: [
+{
+        "id": "",
+        "no": "",
+        "keahlian": "",
+        "skill": "",
+},
+...
+]
+
+
+GET: /skills/[id]
+
+response:{
+        "id": "",
+        "no": "",
+        "keahlian": "",
+        "skill": "",
 }
 
 
-PUT: /articles/[10]
+POST: /skills
 
-data:{
-        "title": "UPDATE Menjadi Manusia Oleh : Syawal Saputra",
-        "author_id": "1",
-        "thumbnail": "https://raw.githubusercontent.com/Habibaditiya21/tekweb2022/master/img/Artikel02.jpg"
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
 }
+
+
+
+body:{
+        "no": "",
+        "keahlian": "",
+        "skill": "",
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+
+PUT: /skills
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:{
+        "no": "",
+        "keahlian": "",
+        "skill": "",
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+
+DELETE: /skills/[id]
+
+response:
+true    // if success
+false   // if failure
+
 
 ```
